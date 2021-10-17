@@ -1,0 +1,6 @@
+<div class="container" *ngIf="post">
+  <h3>{{ post.title }}</h3>
+  <i>{{ post.description }}</i>
+  <p>{{ post.content }}</p>
+  <p><button class="btn btn-primary" (click)="gotoPosts()">Back</button></p>
+</div>
